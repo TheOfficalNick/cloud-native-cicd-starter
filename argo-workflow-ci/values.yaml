@@ -4,12 +4,12 @@
 docker:
   # server: docker-registry.131.153.227.137.sslip.io
   server: docker.io
-  prefix: krumware/
+  prefix: nickytwotones/
   secretName: docker-push-user
 
 github:
   # github repository owner
-  owner: krumIO
+  owner: TheOfficialNick
   # the list of repositories to build on push events
   repositories:
     python-docs-hello-world:
